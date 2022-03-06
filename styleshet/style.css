@@ -1,0 +1,136 @@
+/* google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+}
+/* influencer style start */
+.definition{
+    
+}
+.product-area{
+display: flex;
+padding: 100px;
+}
+
+.first-commit{
+    font-size: 24px;
+    font-weight: 700;
+   margin-left:100px;
+   margin-top: 100px;
+}
+/* Link Simple Hover */
+    
+.product-area .product-summary, a{
+    text-decoration: none;
+}
+.product-area .product-summary a:hover {
+    background-color: black;
+}
+.product-summary{
+    width: 582px;
+    height: 270px;
+}
+.find-out{
+    font-size: 52px;
+    font-weight: 700;
+}
+.link-camera{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px 20px;
+
+}
+.camera-details{
+    width: 440px;
+    height: 414px;
+}
+/*-------------------------
+ Multiple collection start 
+ --------------------------*/
+.diffrent-product{
+    
+}
+.others{
+    display: flex;
+    justify-content: space-around;
+}
+
+ 
+ .collections{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     align-items: center;
+     width: 300px;
+     margin-left: 170px;
+     /* justify-content: space-between; */
+     
+ }
+ .collection{
+    background-color: #FFFFFF;
+    /* width: 300px; */
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   margin: 10px;
+   padding: 17px;
+
+ }
+.single img{
+    width: 300px;
+    height: 256p
+}
+.collection-name{
+    font-size: 28px;
+    font-weight: 500;
+}
+.collection-mony{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}    
+.raiting{
+    color: #FB8200;
+}
+.revew{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.down-footer{
+    height: 170px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+.back{
+    display: flex;
+    justify-content: end;
+    margin-right: 130px;
+    color: rgba(224, 44, 109, 0.87);
+}
+.in-footer{
+    color: white;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    
+}
+.icons{
+    margin-left: 16px;
+    font-weight: 500;
+    width: 15px;
+    height: 12px;
+    color: #FFFFFF;
+}
+
+    
